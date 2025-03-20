@@ -2,7 +2,7 @@
 # DP
 
    
-Repository with Dynamic phasor models in MATLAB done as a part of the Harmony project.
+Repository with the dynamic phasor models in MATLAB done as a part of the Harmony project.
 
 
 ## Contributors
