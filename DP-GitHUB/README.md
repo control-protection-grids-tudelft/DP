@@ -16,7 +16,7 @@ Execute P2PHVDCMMC.m in MATLAB. This will load SFu.mat and other necessary param
 Open and run P2PHVDCMMC.slx in Simulink.
 
 3. Features
-The simulation models a Modular Multilevel Converter (MMC) using both Electromagnetic Transient (EMT) and DQ-symmetric approaches.
+The simulation models a Modular Multilevel Converter (MMC) using both EMT and DQ-sym approaches.
 
 Control blocks govern both models, with a sequencer managing the timing of control events.
 
