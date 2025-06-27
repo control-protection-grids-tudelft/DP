@@ -1,12 +1,28 @@
 Dynamic Phasor-Based Harmonic Modelling for Modular Multilevel Converters
+1. Installation
+MATLAB/Simulink 2024a is required to run the simulations.
 
-1. Installation 
-    - Matlab/Simulink 2024a version is needed to run the simulation. 
-2. Usage 
-    - Run the [dqnMMCsingle.m] file in Matlab to upload Spq.mat and other needed parameters.
-3. Features  
-    - The simulation showcases the MMC model in both EMT and DQsym approaches; both models are controlled from each control block,
-    with a sequencer to time the control events. Power will be shared between the station and the grid. The scopes and measurements blocks 
-    are available to trace the simulation and the outputs.
+2. Usage
+To run the single MMC simulation :
+
+Execute dqnMMCsingle.m in MATLAB. This will load Spq.mat and other necessary parameters.
+
+Open and run Dqn_C_PQ_HVsMc.slx in Simulink.
+
+To run the point-to-point HVDC MMC simulation:
+
+Execute P2PHVDCMMC.m in MATLAB. This will load SFu.mat and other necessary parameters.
+
+Open and run P2PHVDCMMC.slx in Simulink.
+
+3. Features
+The simulation models a Modular Multilevel Converter (MMC) using both Electromagnetic Transient (EMT) and DQ-symmetric approaches.
+
+Control blocks govern both models, with a sequencer managing the timing of control events.
+
+The simulation demonstrates power sharing between the MMC station and the grid.
+
+Scopes and measurement blocks are provided for detailed tracing of outputs and internal states.
+
 4. Contributing
-    - This model will be expanded to a complete point-to-point model with two MMCS and later into an MTDC network.
+This project is under active development. Future updates will include a complete expansion into a full Multi-Terminal DC (MTDC) network.
