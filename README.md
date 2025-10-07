@@ -1,5 +1,5 @@
 ![alt text](IEPG_logo.jpg?raw=true) $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  ![alt text](cresym.png?raw=true)    
-# DP
+# DQsym modelling framework
 
    
 Repository with the dynamic phasor models in MATLAB done as a part of the Harmony project.
