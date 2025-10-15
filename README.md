@@ -8,5 +8,4 @@ Repository with the dynamic phasor models in MATLAB done as a part of the Harmon
 ## Contributors
 - **Saif Alsarayreh**, design of the DQN strategy, and formulation of the models
 - **Robert Dimitrovski**, design of the DQN strategy, and formulation of the models, supervision and acquiring of the funding
-- **Peter Palensky**, supervision
 - **Aleksandra Lekić**, supervision, review, and acquiring of the funding
