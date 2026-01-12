@@ -11,7 +11,7 @@ Interested users should download a local version of the repository. Aside from i
 It is recommended to have MATLAB R2024a or any more recent version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox and the DSP System Toolbox are necessary for features of the toolbox.
 
 License
-DQsym is licensed under the ...........
+DQsym is licensed under the BSD 3-Clause License.
 
 Original Authors : Saif Alsarayreh , Robert Dimitrovski, Aleksandra Lekić.
 
