@@ -21,7 +21,8 @@ Citation
 If you use DQsym in your research, please cite the following preprint:
 
 ```
-Robert Dimitrovski, Saif Alsarayreh, Aleksandra Lekić. A Novel Dynamic Phasor-based Mathematical Framework for Hybrid AC/DC Power System Simulation. TechRxiv. September 15, 2025.
+Robert Dimitrovski, Saif Alsarayreh, Aleksandra Lekić. A Novel Dynamic Phasor-based Mathematical Framework
+for Hybrid AC/DC Power System Simulation. TechRxiv. September 15, 2025.
 ```
 
 Acknowledgement
