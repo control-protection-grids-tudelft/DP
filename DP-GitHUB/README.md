@@ -1,8 +1,9 @@
 Dynamic Phasor-Based Harmonic Modelling for Modular Multilevel Converters
-1. Installation
+
+-Installation
 MATLAB/Simulink 2024a is required to run the simulations.
 
-2. Usage
+- Usage
 To run the single MMC simulation :
 
 Execute dqnMMCsingle.m in MATLAB. This will load Spq.mat and other necessary parameters.
