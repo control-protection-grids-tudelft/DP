@@ -30,11 +30,11 @@ Robert Dimitrovski, Saif Alsarayreh, Aleksandra Lekić. A Novel Dynamic Phasor-b
 for Hybrid AC/DC Power System Simulation. TechRxiv. September 15, 2025.
 ```
 
-**Acknowledgement:**
+# Acknowledgement:
 
 This work was funded by the CRESYM project Harmony (https://cresym.eu/harmony/).
 
 
-**Contact:**
+# Contact:
 
 For any type of inquiry, please contact: S.T.S.Alsarayreh@tudelft.nl, R.Dimitrovski@tudelft.nl, A.Lekic@tudelft.nl.  
