@@ -6,6 +6,7 @@ DQsym: A Dynamic Phasor-Based Toolbox for Analysis of Modern Power Systems
 This repository presents the Dynamic Phasor Toolbox for Analysis of Modern Power Systems (DQsym), a Matlab-based toolbox for EMT modeling and SSA of hybrid AC/DC power systems. DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
 
 Installation
+
 Interested users should download a local version of the repository. Aside from adding the entire DQsym library to the MATLAB path, no other installation action is required.
 
 It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox are required for the toolbox's features.
