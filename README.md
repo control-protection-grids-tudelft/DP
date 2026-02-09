@@ -27,7 +27,7 @@ To run the a test case:
 
 # Features: 
 
-The simulations models a Modular Multilevel Converter (MMC) using both EMT and DQ-sym approaches.
+The simulations models a Modular Multilevel Converter (MMC), in a single-station and point-to-point HVDC transmission setup, using both EMT, Matlab/Simulink Specialized power systems, and DQ-sym library.
 
 Control blocks govern both models, with a sequencer managing the timing of control events.
 
