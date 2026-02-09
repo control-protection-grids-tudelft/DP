@@ -1,5 +1,3 @@
-![alt text](IEPG_logo.jpg?raw=true) $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  ![alt text](cresym.png?raw=true)    
-
 # DQsym modelling library
 
 DQsym: A Dynamic Phasor-Based library for Analysis of Modern Power Systems
