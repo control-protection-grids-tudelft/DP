@@ -13,6 +13,31 @@ Interested users should download a local version of the repository. Aside from a
 
 It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox are required for the toolbox's features.
 
+
+# Usage:
+
+To run the a test case:
+
+1- Add the #lib folder to Matlab path.
+
+2- Navigate to test case folder and execute , e.g. testcase.m in MATLAB. This will load .mat and other necessary parameters.
+
+3- Selected test case .slx file will open and run.
+
+
+# Features: 
+
+The simulations models a Modular Multilevel Converter (MMC) using both EMT and DQ-sym approaches.
+
+Control blocks govern both models, with a sequencer managing the timing of control events.
+
+Scopes and measurement blocks are provided for detailed tracing of outputs and internal states.
+
+# Contributing:
+
+This project is under active development. Future updates will include a complete expansion into a full Multi-Terminal DC (MTDC) network
+
+
 # License:
 
 DQsym is licensed under the BSD 3-Clause License.
