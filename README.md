@@ -1,9 +1,11 @@
 ![alt text](IEPG_logo.jpg?raw=true) $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  ![alt text](cresym.png?raw=true)    
 
-# DQsym modelling framework
+# DQsym modelling library
 
-DQsym: A Dynamic Phasor-Based Toolbox for Analysis of Modern Power Systems
-This repository presents the Dynamic Phasor Toolbox for Analysis of Modern Power Systems (DQsym), a Matlab-based toolbox for EMT modeling and SSA of hybrid AC/DC power systems. DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
+DQsym: A Dynamic Phasor-Based library for Analysis of Modern Power Systems
+This repository presents the Dynamic Phasor library for Analysis of Modern Power Systems (DQsym), a Matlab-based library for dynamic phasor modeling and SSA of hybrid AC/DC power systems.
+
+DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
 
 # Installation:
 
