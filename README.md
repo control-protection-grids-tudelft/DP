@@ -9,6 +9,8 @@ This repository presents the Dynamic Phasor library for Analysis of Modern Power
 
 DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
 
+![alt text](DQsym_logo.png?raw=true)
+
 # Installation:
 
 Interested users should download a local version of the repository. Aside from adding the entire DQsym library to the MATLAB path, no other installation action is required.
