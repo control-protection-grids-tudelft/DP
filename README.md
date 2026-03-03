@@ -9,7 +9,7 @@ This repository presents the Dynamic Phasor library for Analysis of Modern Power
 
 DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
 
-![alt text](DQsym_logo.png?=x50)
+![alt text](DQsym_logo_v2.png?raw=true)
 
 # Installation:
 
