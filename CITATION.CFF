@@ -1,0 +1,17 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Alsarayreh"
+  given-names: "Saif"
+  orcid: "https://orcid.org/0000-0002-8037-8665"
+- family-names: "Dimitrovski"
+  given-names: "Robert"
+  orcid: "https://orcid.org/0000-0002-9775-3265"
+- family-names: "Lekić"
+  given-names: "Aleksandra"
+  orcid: "https://orcid.org/0000-0003-2727-0767"
+title: "DQsym: A Dynamic Phasor-Based library for Analysis of Modern Power Systems This repository presents the Dynamic Phasor library for Analysis of Modern Power Systems"
+version: 1.0.0
+doi: https://doi.org/10.5281/zenodo.18544532
+date-released: 2025-07-30
+url: "https://github.com/control-protection-grids-tudelft/DP"
