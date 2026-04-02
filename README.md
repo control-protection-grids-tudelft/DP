@@ -47,9 +47,9 @@ Version 1.0 includes:
 
 - Full access to internal block implementations through masked subsystems
 
-- Support for **Modular Multilevel Converters (MMC)** using an averaged model in a state-space formulation
+- Support for **Modular Multilevel Converters (MMC)** using an averaged model in a state-space formulation.
 
-- A unified **multi-harmonic state-space framework** for modelling and analysis
+- A unified **multi-harmonic state-space framework** for modelling and analysis.
 
 # limitations:
 - The framework assumes that users can obtain a **discrete-time state-space representation** of the system to be built.
