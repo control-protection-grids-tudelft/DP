@@ -4,10 +4,10 @@
 
 # DQsym modelling library
 
-DQsym: A Dynamic Phasor-Based library for Analysis of Modern Power Systems
+- DQsym: A Dynamic Phasor-Based library for Analysis of Modern Power Systems
 This repository presents the Dynamic Phasor library for Analysis of Modern Power Systems (DQsym), a Matlab-based library for dynamic phasor modeling and SSA of hybrid AC/DC power systems.
 
-DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
+- DQsym was developed within the Intelligent Electrical Power Grids research group at TU Delft.
 
 ![alt text](DQsym_logo_v2.png?raw=true)
 
@@ -61,12 +61,12 @@ Version 1.0 includes:
 
 # Contributing:
 
-This project is under active development. Future updates will include a complete expansion into a full Multi-Terminal DC (MTDC) network
+- This project is under active development. Future updates will include a complete expansion into a full Multi-Terminal DC (MTDC) network
 
 
 # License:
 
-DQsym is licensed under the BSD 3-Clause License.
+- DQsym is licensed under the BSD 3-Clause License.
 
 # Original Authors:
 
