@@ -51,6 +51,17 @@ Version 1.0 includes:
 
 - A unified **multi-harmonic state-space framework** for modelling and analysis.
 
+
+# Creating Custom Test Cases
+
+- Custom test cases can be developed by defining the system in a discrete-time state-space form. The DQsym framework operates directly on system matrices, allowing users to represent networks, converters, and control systems within a unified multi-harmonic formulation.
+
+- For standard network components such as AC sources, transformers, and RLC elements, models can be implemented directly by deriving the corresponding state-space matrices and connecting them using the provided blocks.
+
+- The framework is also compatible with averaged models of power converters. In Version 1.0, the Modular Multilevel Converter (MMC) averaged model has been implemented and validated. Other converter topologies can be incorporated using the same approach; however, their implementation and validation are left to the user.
+
+- This design provides a high degree of modelling flexibility, but it assumes familiarity with state-space modelling and system formulation.
+
 # limitations:
 - The framework assumes that users can obtain a **discrete-time state-space representation** of the system to be built.
 
