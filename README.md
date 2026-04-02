@@ -20,13 +20,7 @@ It is recommended to have MATLAB R2024a or a later version installed. Simulink, 
 
 # Usage:
 
-To run the a test case:
 
-1- Add the #lib folder to Matlab path.
-
-2- Navigate to test case folder and execute , e.g. testcase.m in MATLAB. This will load .mat and other necessary parameters.
-
-3- Selected test case .slx file will open and run.
 
 
 # Features: 
