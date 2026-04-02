@@ -28,28 +28,36 @@ It is recommended to have MATLAB R2024a or a later version installed. Simulink, 
 
 
 # Usage:
+- The library supports the representation of higher-order harmonics using dynamic phasors.To capture these harmonics, the corresponding system states must be included in the model formulation.
 
-1. The framework assumes that users can obtain a discrete-time state-space representation of the system.
+- Example models are provided and implemented using both **MATLAB/Simulink Specialized Power Systems (SPS)** and the **DQsym** library. Users can enable or disable the SPS-based models as needed for comparison or validation.
 
-2. Higher Harmonic order can be captured, but system state need to be provided in order to represent them in the output states.
+- Scope and measurement blocks are included to support detailed observation of output signals and internal states during simulation.
 
 # Features: 
 
 Version 1.0 includes:
 
-1. The following blocks (State-space, Multiplicaiton, Integration, Mux, Demux, DQsym to ABC transformation).
-2. Modular Multilevel Converters (MMC) using an averaged model in a state-space formulation and simulink model. 
-3. The simulations models, single-station and point-to-point HVDC transmission, use both Matlab/Simulink Specialized power systems, and DQsym library.
+- A set of masked blocks, including:
+  - State-space block  
+  - Multiplication block  
+  - Integration block  
+  - Mux/Demux blocks  
+  - DQsym-to-ABC transformation block  
 
-Control blocks govern both models, with a sequencer managing the timing of control events.
+- Full access to internal block implementations through masked subsystems
 
-Scopes and measurement blocks are provided for detailed tracing of outputs and internal states.
+- Support for **Modular Multilevel Converters (MMC)** using an averaged model in a state-space formulation
+
+- A unified **multi-harmonic state-space framework** for modelling and analysis
 
 # limitations:
+- The framework assumes that users can obtain a **discrete-time state-space representation** of the system to be built.
 
-More detailed converter models require additional derivation and implementation.
+- More detailed converter models require additional derivation and implementation.
 
-Generator models with mechanical dynamics are not supported for  Version 1.0, these are represented as ideal sources.
+- Generator models with mechanical dynamics are not supported in Version 1.0. These are currently represented as ideal sources.
+
 
 # Contributing:
 
