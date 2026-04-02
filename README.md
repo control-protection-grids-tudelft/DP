@@ -13,23 +13,40 @@ DQsym was developed within the Intelligent Electrical Power Grids research group
 
 # Installation:
 
-Interested users should download a local version of the repository. Aside from adding the entire DQsym library to the MATLAB path, no other installation action is required.
+Follow these steps to install the **DQsym** library in MATLAB/Simulink:
 
-It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox are required for the toolbox's features.
+1. Download or clone the repository
+2. Open MATLAB
+3. Navigate to the toolbox folder
+4. Locate the DQsym toolbox directory
+5. Open it in MATLAB (using the Current Folder panel or cd command)
+6. Run the setup script addlib.m
+7. When prompted, confirm adding the folder to the MATLAB path
+8. The Simulink Library Browser will refresh automatically
+
+It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox 2024a or a later version are required for the toolbox's features.
 
 
 # Usage:
 
+The framework assumes that users can obtain a discrete-time state-space representation of the system.
 
 
 
 # Features: 
+Version 1.0 includes:
+
+Support for Modular Multilevel Converters (MMC) using an averaged model . 
 
 The simulations models a Modular Multilevel Converter (MMC), in a single-station and point-to-point HVDC transmission setup, using both EMT, Matlab/Simulink Specialized power systems, and DQ-sym library.
 
 Control blocks govern both models, with a sequencer managing the timing of control events.
 
 Scopes and measurement blocks are provided for detailed tracing of outputs and internal states.
+
+Current limitations:
+More detailed converter models require additional derivation and implementation
+Generator models with mechanical dynamics are not supported for  Version 1.0, these are represented as ideal sources.
 
 # Contributing:
 
