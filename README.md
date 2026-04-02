@@ -17,35 +17,38 @@ Follow these steps to install the **DQsym** library in MATLAB/Simulink:
 
 1. Download or clone the repository
 2. Open MATLAB
-3. Navigate to the toolbox folder
+3. Navigate to the toolbox folder (DQsym Toolbox)
 4. Locate the DQsym toolbox directory
 5. Open it in MATLAB (using the Current Folder panel or cd command)
 6. Run the setup script addlib.m
 7. When prompted, confirm adding the folder to the MATLAB path
 8. The Simulink Library Browser will refresh automatically
 
-It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox 2024a or a later version are required for the toolbox's features.
+It is recommended to have MATLAB R2024a or a later version installed. Simulink, SimPowerSystems, the Signal Processing Toolbox, and the DSP System Toolbox 2024a or a later version are required for the toolbox's features and validations.
 
 
 # Usage:
 
-The framework assumes that users can obtain a discrete-time state-space representation of the system.
+1. The framework assumes that users can obtain a discrete-time state-space representation of the system.
 
-
+2. Higher Harmonic order can be captured, but system state need to be provided in order to represent them in the output states.
 
 # Features: 
+
 Version 1.0 includes:
 
-Support for Modular Multilevel Converters (MMC) using an averaged model . 
-
-The simulations models a Modular Multilevel Converter (MMC), in a single-station and point-to-point HVDC transmission setup, using both EMT, Matlab/Simulink Specialized power systems, and DQ-sym library.
+1. The following blocks (State-space, Multiplicaiton, Integration, Mux, Demux, DQsym to ABC transformation).
+2. Modular Multilevel Converters (MMC) using an averaged model in a state-space formulation and simulink model. 
+3. The simulations models, single-station and point-to-point HVDC transmission, use both Matlab/Simulink Specialized power systems, and DQsym library.
 
 Control blocks govern both models, with a sequencer managing the timing of control events.
 
 Scopes and measurement blocks are provided for detailed tracing of outputs and internal states.
 
-Current limitations:
-More detailed converter models require additional derivation and implementation
+# limitations:
+
+More detailed converter models require additional derivation and implementation.
+
 Generator models with mechanical dynamics are not supported for  Version 1.0, these are represented as ideal sources.
 
 # Contributing:
