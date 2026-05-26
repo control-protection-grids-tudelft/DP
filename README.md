@@ -87,11 +87,23 @@ Copyright (c) 2025 TU DELFT
 
 # Citation:
 
-If you use DQsym in your research, please cite the following preprint:
+If you use DQsym in your research, please cite the following preprint and SoftwareX paper:
 
 ```
 Robert Dimitrovski, Saif Alsarayreh, Aleksandra Lekić. A Novel Dynamic Phasor-based Mathematical Framework
 for Hybrid AC/DC Power System Simulation. TechRxiv. September 15, 2025.
+
+@article{ALSARAYREH2026102719,
+title = {DQsym: A MATLAB/Simulink library for dynamic phasor simulation of AC/DC power systems},
+journal = {SoftwareX},
+volume = {34},
+pages = {102719},
+year = {2026},
+issn = {2352-7110},
+doi = {https://doi.org/10.1016/j.softx.2026.102719},
+url = {https://www.sciencedirect.com/science/article/pii/S2352711026002116},
+author = {Saif Alsarayreh and Robert Dimitrovski and Aleksandra Lekić}
+}
 ```
 
 # Acknowledgement:
