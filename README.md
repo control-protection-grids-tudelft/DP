@@ -1,6 +1,6 @@
 ![alt text](IEPG_logo.jpg?raw=true) $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  ![alt text](cresym.png?raw=true)    
 
-[![DOI](https://zenodo.org/badge/951306773.svg)](https://doi.org/10.5281/zenodo.18544531)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18544531.svg)](https://doi.org/10.5281/zenodo.18544531)
 
 # DQsym modelling library
 
